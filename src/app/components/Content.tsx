@@ -257,7 +257,7 @@ export default function Content() {
 
 			{/* Ad */}
 			<div id="ad-3" className="">
-				<div className="mx-auto w-full min-h-[280px] rounded-sm relative">
+				<div className="mx-auto w-full h-[180px] rounded-sm relative">
 					<Image
 						src={"/ad3.png"}
 						fill
