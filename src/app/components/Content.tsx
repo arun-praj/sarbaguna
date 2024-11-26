@@ -256,7 +256,7 @@ export default function Content() {
 			</div>
 
 			{/* Ad */}
-			<div id="ad-3" className="">
+			<div className="">
 				<div className="mx-auto w-full h-[180px] rounded-sm relative">
 					<Image
 						src={"/ad3.png"}
