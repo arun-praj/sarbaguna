@@ -233,8 +233,8 @@ export default function Content() {
 					</button>
 				</div>
 
-				<div className=" flex gap-2 flex-col row-span-1 md:col-span-3 xl:col-span-2 w-full mt-16 md:mt-0">
-					<div className="relative w-full h-full">
+				<div className=" flex gap-2 flex-col row-span-1 md:col-span-3 xl:col-span-3 w-full mt-16 md:mt-0">
+					<div className="relative w-auto h-full">
 						<Image
 							alt="ad2"
 							src={"/ad2.png"}
@@ -257,7 +257,7 @@ export default function Content() {
 
 			{/* Ad */}
 			<div className="">
-				<div className="mx-auto w-full h-[180px] rounded-sm relative">
+				<div className="mx-auto w-full h-[100px]  md:h-[180px] rounded-sm relative">
 					<Image
 						src={"/ad3.png"}
 						fill
@@ -301,7 +301,7 @@ export default function Content() {
 										<span className=" text-xl">
 											{announcement.headline}
 										</span>
-										<span className=" text-xs">
+										<span className=" text-xs text-gray-400">
 											{announcement.date}
 										</span>
 									</div>
