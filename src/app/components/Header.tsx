@@ -6,10 +6,7 @@ export default function Header() {
 			<div className="relative h-20 lg:h-40  w-[600px]">
 				<Image alt="logo" src={"/logo.png"} fill objectFit="contain" />
 			</div>
-			<div
-				id="bannerAds"
-				className=" relative h-12 lg:h-32 w-full rounded-full"
-			>
+			<div className=" relative h-12 lg:h-32 w-full rounded-full">
 				<Image
 					alt="logo"
 					src={"/ad1.png"}
